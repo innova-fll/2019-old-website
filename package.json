@@ -1,0 +1,29 @@
+{
+  "name": "asterdroids",
+  "version": "0.0.2",
+  "description": "Official Asterdroids Website",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "NODE_ENV=production node src/app.js",
+    "test": "npm run lint",
+    "lint": "eslint src *.js",
+    "lint:fix": "eslint --fix src"
+  },
+  "dependencies": {
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "express-http-to-https": "^1.1.4",
+    "helmet": "^3.15.0",
+    "pm2": "^3.2.9",
+    "grumpy": "^0.0.5",
+    "quick.db": "^6.3.2"
+  },
+  "author": "Asterdroids Team",
+  "homepage": "https://asterdroid.ml",
+  "devDependencies": {
+    "eslint": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
